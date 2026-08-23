@@ -1,0 +1,67 @@
+# Byte-compiled Python and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Test, coverage, type-checker, and linter caches
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Generated datasets, models, and experiment output
+data/raw/*
+data/processed/*
+artifacts/*
+models/
+runs/
+mlruns/
+
+# Keep placeholder files when present
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!artifacts/.gitkeep
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
